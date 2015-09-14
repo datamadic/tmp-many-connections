@@ -1,0 +1,19 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "many-connections",
+        "description": "OpenFin POC",
+        "url": "http://local:8080",
+        "uuid": "many-connections-j9woz8wkw79442t9",
+        "autoShow": true
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "beta"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Openfin POC",
+        "name": "many-connections"
+    }
+}
