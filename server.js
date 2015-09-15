@@ -7,6 +7,7 @@ app.get('/angular.js', function (req, res) {
   console.log('connections: ', ++connections, req.originalUrl);
   setTimeout(function(){
   	res.sendFile(__dirname + '/angular.js');
+  	--connections;
   }, 3000);
 });
 
